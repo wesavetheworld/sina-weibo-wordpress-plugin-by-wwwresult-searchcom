@@ -17,12 +17,14 @@ Version 1.0.0 Feature
 2.could check a checkbox to prevent updating
 3.could simply send a message to sina weibo at wordpress 
 4.support multiple language,current have Chinese and English
+5.Do not need you to input your sina account and password.
 
 Version 1.0.0 功能
 1.更新博客时，发送博客标题和博客文章地址到新浪微博
 2.可以勾选选项框选择当前更新不发送到新浪微博
 3.可以通过wordpress后台发送简单的信息到新浪微博
 4.支持多语言，当前有中文和英文
+5.不需要你输入帐号密码，保护你的sina帐号更安全
 
 
 
