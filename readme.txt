@@ -3,7 +3,7 @@ Contributors: Lyman Lai
 Donate link: http://www.result-search.com/sty/wordpress-sina-t-plugin
 Tags: sina weibo,wp2sinaweibo,新浪微博,同步发布,sina,新浪
 Requires at least: 2.7
-Tested up to: 2.9.2
+Tested up to: 3.0
 Stable tag: 1.0.0
 
 This plugin makes it simple to update sina weibo message from wordpress.
@@ -11,6 +11,8 @@ Also it have the feature to send update status while you post a new blog
 
 == Description ==
 
+Version 1.1.0 Feature
+Fix the tag bug
 
 Version 1.0.0 Feature
 1.send blog title and blog url to sina weibo while you update or post new blog
@@ -18,6 +20,9 @@ Version 1.0.0 Feature
 3.could simply send a message to sina weibo at wordpress 
 4.support multiple language,current have Chinese and English
 5.Do not need you to input your sina account and password.
+
+Version 1.1.0 功能
+解决掉tag的bug
 
 Version 1.0.0 功能
 1.更新博客时，发送博客标题和博客文章地址到新浪微博
