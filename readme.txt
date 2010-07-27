@@ -11,6 +11,9 @@ Also it have the feature to send update status while you post a new blog
 
 == Description ==
 
+Version 1.2.0 Feature
+Fix the post permalink bug
+
 Version 1.1.0 Feature
 Fix the tag bug
 
@@ -20,6 +23,9 @@ Version 1.0.0 Feature
 3.could simply send a message to sina weibo at wordpress 
 4.support multiple language,current have Chinese and English
 5.Do not need you to input your sina account and password.
+
+Version 1.2.0 功能
+解决掉post的链接bug
 
 Version 1.1.0 功能
 解决掉tag的bug

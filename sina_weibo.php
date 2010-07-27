@@ -255,7 +255,7 @@ class Sina_weibo
 			return '';
 		}
         $post = get_post($id);
-        $url = $post->guid;
+        $url =  get_permalink($id);
 
         $tweet = $post->post_title;
 
