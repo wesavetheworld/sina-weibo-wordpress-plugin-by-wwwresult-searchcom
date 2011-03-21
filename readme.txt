@@ -1,11 +1,11 @@
-=== sina-weibo-wordpress-plugin-by-www.result-search.com ===
+﻿=== sina-weibo-wordpress-plugin-by-www.result-search.com ===
 Contributors: Lyman Lai
 Author URI: http://www.yaha.me/go/?p=3
 Plugin URI: http://www.yaha.me/go/?p=3
 Tags: sina weibo,wp2sinaweibo,新浪微博,同步发布,sina,新浪
 Requires at least: 3.1
 Tested up to: 3.1
-Stable tag: 2.0.0
+Stable tag: 2.0
 
 This plugin makes it simple to update sina weibo message from wordpress.
 Also it have the feature to send update status while you post a new blog
