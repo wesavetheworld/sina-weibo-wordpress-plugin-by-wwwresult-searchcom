@@ -4,7 +4,7 @@ Plugin Name: sina weibo wordpress plugin by www.result-search.com
 Plugin URI: http://www.result-search.com/sty/wordpress-sina-t-plugin
 Description: This plugin work for the Chinese hot twitter like website, t.sina.com.cn,if you interest in Chinese Marketing,you should use this plugin
 Author: Lyman Lai(at www.result-search.com)
-Version: 1.1
+Version: 2.0
 Author URI: http://www.result-search.com
 
 */
