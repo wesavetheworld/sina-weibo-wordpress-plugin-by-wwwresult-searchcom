@@ -4,7 +4,7 @@ Plugin Name: sina weibo wordpress plugin by http://www.yaha.me/002/
 Plugin URI: http://www.yaha.me/002/wordpress-sina-t-plugin
 Description: This plugin work for the Chinese hot twitter like website, t.sina.com.cn,if you interest in Chinese Marketing,you should use this plugin
 Author: Lyman Lai(at www.yaha.me)
-Version: 3.0.0
+Version: 3.0.1
 Author URI: http://www.yaha.me/about/lyman
 
 */
