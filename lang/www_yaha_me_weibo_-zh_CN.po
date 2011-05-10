@@ -1,0 +1,364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sina_weibo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-10 11:39+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: lyman <yaaahaaa.com@gmail.com>\n"
+"Language-Team: http://www.result-search.com/ <support@result-search.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../weibo.php:140
+msgid "weibo"
+msgstr "微博 "
+
+#: ../weibo.php:293
+#: ../weibo.php:294
+#: ../weibo.php:330
+msgid "Weibo"
+msgstr "新浪微博 "
+
+#: ../weibo.php:301
+msgid "Help Information"
+msgstr "帮助信息"
+
+#: ../weibo.php:304
+msgid "bind weibo"
+msgstr "绑定微博"
+
+#: ../weibo.php:305
+msgid "category bind"
+msgstr "分类绑定"
+
+#: ../weibo.php:306
+msgid "new message"
+msgstr "发表微博"
+
+#: ../weibo.php:307
+msgid "options setting"
+msgstr "选项设置"
+
+#: ../weibo.php:308
+msgid "reset settings"
+msgstr "重置设置"
+
+#: ../weibo.php:392
+msgid "Sina Weibo"
+msgstr "新浪微博"
+
+#: ../weibo.php:501
+msgid "Like this plugin?"
+msgstr "喜欢这个插件么？"
+
+#: ../weibo.php:505
+#: ../weibo.php:506
+msgid "If you have any problems with this plugin or good ideas for improvements or new features, please talk about them in the"
+msgstr "如果你在使用这个插件过程中有任何问题或者对插件有任何新的想法或功能意见，请告诉我们"
+
+#: ../weibo.php:505
+#: ../weibo.php:506
+msgid "Support forums"
+msgstr "在支持论坛"
+
+#: ../weibo.php:507
+msgid "Need support?"
+msgstr "需要技术支持？"
+
+#: ../weibo.php:517
+msgid "Latest news from yaha.me"
+msgstr "最新yaha.me新闻"
+
+#: ../weibo.php:530
+#: ../func/bottom.php:10
+msgid "Something maybe you are interesting?"
+msgstr "一些你可能感兴趣的东西"
+
+#: ../func/bind_weibo.php:30
+msgid "unbind weibo"
+msgstr "解除绑定微博"
+
+#: ../func/comment_form.php:12
+msgid "sync to weibo"
+msgstr "同步到微博"
+
+#: ../func/comment_form.php:24
+#: ../func/show_bind_button.php:7
+msgid "login with sina weibo"
+msgstr "以新浪微博帐号登录"
+
+#: ../func/help.php:3
+msgid "You should first go to \"bind weibo\" page, bind your account to weibo, then you could connect them to weibo"
+msgstr "您需要先到“绑定微博”页面绑定您的账户到微博上才能与微博连接。"
+
+#: ../func/loginout.php:22
+#, php-format
+msgid "You have Login as <a href=\"%s\">%s</a> <a href=\"%s\">Logout</a>"
+msgstr "您已经以<a href=\"%s\">%s</a> 登录 <a href=\"%s\">登出</a>"
+
+#: ../func/new_message.php:63
+msgid "message:"
+msgstr "微博信息："
+
+#: ../func/new_message.php:67
+msgid "upload image:"
+msgstr "上传图片："
+
+#: ../func/new_message.php:70
+msgid "if empty, system would using remote image instead"
+msgstr "如果留空，系统会使用远程图片 "
+
+#: ../func/new_message.php:74
+#: ../func/sina_weibo_meta_box.php:38
+msgid "remote image:"
+msgstr "远程图片："
+
+#: ../func/new_message.php:77
+msgid "if upload image and remote image both empty, system would not upload image to weibo"
+msgstr "如果上传图片和远程图片都是空的，系统就不会上传图片到微博"
+
+#: ../func/new_message.php:85
+#: ../func/reset_all_setting.php:15
+#: ../func/setting.php:88
+msgid "Submit"
+msgstr "提交"
+
+#: ../func/reset_all_setting.php:7
+#: ../func/setting.php:22
+msgid "Operate Success!"
+msgstr "操作成功！"
+
+#: ../func/reset_all_setting.php:13
+msgid "click the submit button to reset all settings"
+msgstr "点击提交按钮来重置所有设置"
+
+#: ../func/setting.php:44
+msgid "Default Formate:"
+msgstr "默认格式："
+
+#: ../func/setting.php:45
+msgid "%title% %link%"
+msgstr "%标题% %文章地址%"
+
+#: ../func/setting.php:48
+msgid "Upload Image for Default:"
+msgstr "默认同步图片："
+
+#: ../func/setting.php:52
+#: ../func/setting.php:74
+#: ../func/sina_weibo_meta_box.php:23
+msgid "yes"
+msgstr "是的"
+
+#: ../func/setting.php:56
+#: ../func/setting.php:78
+#: ../func/sina_weibo_meta_box.php:27
+msgid "no"
+msgstr "不是"
+
+#: ../func/setting.php:70
+msgid "Block Unlimited Feature Promotion:"
+msgstr "关闭VIP功能提示"
+
+#: ../func/sina_weibo_meta_box.php:20
+msgid "Do you want to update to sina weibo:"
+msgstr "你想要同步发布微博么"
+
+#: ../func/sina_weibo_meta_box.php:31
+msgid "Formate:"
+msgstr "格式："
+
+#: ../func/sina_weibo_meta_box.php:33
+msgid "Default Formate: %title% %link%"
+msgstr "默认格式： %标题% %文章地址%"
+
+#: ../func/sina_weibo_meta_box.php:59
+msgid "Having trouble while using this plugin?, Just <a href=\"http://www.yaha.me/go/?p=3\" target=\"_blank\">click here</a> come to yaha.me to get support!"
+msgstr "如果您使用这个插件过程中有任何问题，请,<a href=\"http://www.yaha.me/go/?p=3\" target=\"_blank\">点击这里</a>到yaha.me网站上获得技术支持！"
+
+#: ../func/widget.php:8
+#: ../func/widget.php:13
+msgid "weibo login"
+msgstr "微博登录"
+
+#: ../vip/category_bind.php:19
+msgid "binding... please wait"
+msgstr "绑定中。。。请稍等"
+
+#: ../vip/category_bind.php:60
+msgid "Choose the category you want to impower"
+msgstr "选择你要授权的分类"
+
+#: ../vip/category_bind.php:79
+msgid "submit"
+msgstr "提交"
+
+#: ../vip/category_bind.php:90
+msgid "You should check at least one category to impower"
+msgstr "你必须至少选择一个分类来授权"
+
+#: ../vip/category_bind.php:128
+msgid "category"
+msgstr "分类"
+
+#: ../vip/category_bind.php:137
+msgid "authorization token"
+msgstr "授权标记"
+
+#: ../vip/category_bind.php:145
+msgid "authorization token secret"
+msgstr "授权标记密匙"
+
+#: ../vip/category_bind.php:154
+msgid "user"
+msgstr "用户"
+
+#: ../vip/category_bind.php:168
+msgid "none of your category bind to weibo yet"
+msgstr "您还没有绑定任何微博帐号"
+
+#: ../vip/new_message.php:62
+msgid "author:"
+msgstr "用户"
+
+#: ../vip/sina_weibo_meta_box.php:37
+msgid "Do you want to upload image:"
+msgstr "你想要同步上传微博图片么 "
+
+#: ../vip/sina_weibo_meta_box.php:46
+msgid "if you choose yes, then it would get the remote image or upload image to upload, if they are both empty, then system would trying to get image from post feature image or the first image in your post content to upload"
+msgstr "如果您选择是，则会获取远程图片或者上传的图片，如果他们都是留空，系统将会尝试先获取特色图片或者文章正文的第一张图片来同步到这一条微博"
+
+#: ../vip/sina_weibo_meta_box.php:52
+msgid "If you input an image url here, then it would using this image"
+msgstr "如果您输入一个图片的远程url地址，系统就会优先使用这张图片"
+
+#: ../vip/sina_weibo_meta_box.php:60
+msgid "If you choose an image here, then it would using this image"
+msgstr "如果您输入一个图片的远程url地址，系统就会优先使用这张图片 "
+
+#~ msgid "Why not do any or all of the following:"
+#~ msgstr "为啥不试试这些："
+#~ msgid "Link to it so other folks can find out about it."
+#~ msgstr "在你的友情链接上放上这个，这样会有更多人知道它。"
+#~ msgid "Give it a good rating on WordPress.org."
+#~ msgstr "在wordpress.org上投个好评票"
+#~ msgid "category author"
+#~ msgstr "分类绑定"
+#~ msgid "renew author"
+#~ msgstr "重新授权"
+#~ msgid "nothing yet"
+#~ msgstr "还没有"
+#~ msgid "Operate aborted! You should renew author"
+#~ msgstr "操作退出！您得去重新授权下"
+#~ msgid ""
+#~ "You must renew author first, after this you could using other function of "
+#~ "this plugin"
+#~ msgstr "你必须先重新授权，才能使用这个插件的其他功能"
+#~ msgid "Image:"
+#~ msgstr "图片："
+#~ msgid "Are you sure you want to reauthor?"
+#~ msgstr "你确定要重新授权？"
+#~ msgid "Subscribe with RSS"
+#~ msgstr "添加我们的RSS更新"
+#~ msgid "Nothing to say..."
+#~ msgstr "还没有什么内容"
+#~ msgid "Author List"
+#~ msgstr "授权列表"
+#~ msgid "Init authorization"
+#~ msgstr "初始化授权"
+#~ msgid "Renew Author"
+#~ msgstr "重新授权"
+#~ msgid "reset all settings"
+#~ msgstr "重置所有设置"
+#~ msgid "Sina Weibo Author Status"
+#~ msgstr "新浪微博授权状态"
+#~ msgid ""
+#~ "Are you sure you want to renew authorization? <a href=\"%s\"><strong>yes</"
+#~ "strong></a>"
+#~ msgstr "您确定要重新授权？ <a href=\"%s\"><strong>是的</strong></a>"
+#~ msgid "click the link<a href=\"%s\">%s</a>to get new authorization token"
+#~ msgstr "点击链接<a href=\"%s\">%s</a>来获得新的授权标记"
+#~ msgid "renew author success!"
+#~ msgstr "重新授权成功！"
+#~ msgid "pageMash - pageManagement     "
+#~ msgstr "pageMash - Sayfa Yönetimi"
+#~ msgid ""
+#~ "Just drag the pages <strong>up</strong> or <strong>down</strong> to "
+#~ "change the page order and <strong>left</strong> or <strong>right</strong> "
+#~ "to change the page`s parent, then hit \"update\".     "
+#~ msgstr ""
+#~ "Sayfa düzenini değiştirmek için sadece sayfaları <strong>yukarı</strong> "
+#~ "ya da <strong>aşağı</strong> doğru bırak ve sayfanın parentini "
+#~ "değiştirmek için  <strong>sol</strong> ya da <strong>sağ</strong> olarak "
+#~ "değiştir, sonra tıkla: \"update\".     "
+#~ msgid ""
+#~ "The icon to the left of each page shows if it has child pages, "
+#~ "<strong>double click</strong> on that item to toggle <strong>expand|"
+#~ "collapse</strong> of it`s children.     "
+#~ msgstr ""
+#~ "Eğer bir iconun üzerinde + işareti görünüyorsa, bu, o sayfanın alt "
+#~ "sayfaları var anlamına gelir, Alt sayfalarını görmek için veya kapatmak "
+#~ "için o sayfanın iconuna <strong>çift tıklayın</strong>. Hepsini açıp "
+#~ "kapatmak için tıkla <strong>Hepsini Aç/Hepsini Kapat</strong> "
+#~ "seçeneklerine tıklayın."
+#~ msgid "Expand All"
+#~ msgstr "Hepsini Aç"
+#~ msgid "Collapse All     "
+#~ msgstr "Hepsini Kapat"
+#~ msgid "Update        "
+#~ msgstr "Güncelle"
+#~ msgid "How to Use     "
+#~ msgstr "Nasıl Kullanılır"
+#~ msgid ""
+#~ "pageMash works with the wp_list_pages function. The easiest way to use it "
+#~ "is to put the pages widget in your sidebar [WP admin page > Appeaarance > "
+#~ "Widgets]. Click the configure button on the widget and ensure that 'sort "
+#~ "by' is set to 'page order'. Hey presto, you're done.     "
+#~ msgstr ""
+#~ "pageMash. wp_list_pages function ile birlikte çalışmaktadır. Yan menüde "
+#~ "bu eklentiyi kullanmanın kolay yolu şu 'WP Admin Sayfası > Görünüm > "
+#~ "Bileşenler'. Ayarlar butonuna tıkla ve 'sort by' kısmını 'sayfa düzenine' "
+#~ "ayarla ve olduğunu garantiye al."
+#~ msgid ""
+#~ "You can also use the function anywhere in your theme code. e.g. in your "
+#~ "sidebar.php file (but the code in here will not run if you're using any "
+#~ "widgets) or your header.php file (somewhere under the body tag, you may "
+#~ "want to use the depth=1 parameter to only show top level pages). The code "
+#~ "should look something like the following:"
+#~ msgstr ""
+#~ "Bu eklentiyi sidebar.php dosyasının içindeki kodu ile heryerde "
+#~ "kullanabilirsiniz. ( Sidebar kısmında kullanılırken diğer kısımlarda "
+#~ "kullanılamaz) Örnek header.php kısmında. ( bazı yerlerde derinliği=1"
+#~ "(depth=1 olarak kullanmak isteyebilirsiniz, sadece popüler sayfaları "
+#~ "göstermek için ). Kodlar takiben gördüğünüz gibi olmalı"
+#~ msgid ""
+#~ "You can also hard-code pages to exclude and these will be merged with the "
+#~ "pages you set to exclude in your pageMash admin."
+#~ msgstr ""
+#~ "Zor-kod sayfalarından istersen dışlayabilirsin ve bunlar senin pageMash "
+#~ "admin sayfalarında ayarlayıp dışta tuttuğun sayfalarla birleşecek "
+#~ msgid ""
+#~ "The code here is very simple and flexible, for more information look up "
+#~ "<a href=\"http://codex.wordpress.org/Template_Tags/wp_list_pages\" title="
+#~ "\"wp_list_pages Documentation\">wp_list_pages() in the Wordpress Codex</"
+#~ "a> as it is very well documented and if you have any further questions or "
+#~ "feedback I like getting messages, so <a href=\"http://joelstarnes.co.uk/"
+#~ "contact/\" title=\"email Joel Starnes\">drop me an email</a>."
+#~ msgstr ""
+#~ "Kod sade ve kullanımlıdır, daha fazla bilgi için incele <a href=\"http://"
+#~ "codex.wordpress.org/Template_Tags/wp_list_pages\" title=\"wp_list_pages "
+#~ "Documentation\">wp_list_pages() in the Wordpress Codex</a> bol dökümanı "
+#~ "bulabilirsiniz. Bana soru sorabilir veya feedback yapabilirsiniz. E-mail: "
+#~ "<a href=\"http://joelstarnes.co.uk/contact/\" title=\"email Joel Starnes"
+#~ "\">bana mail yaz.</a>."
+#~ msgid "pageMash          "
+#~ msgstr "pageMash"
+
