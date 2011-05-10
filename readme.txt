@@ -1,53 +1,38 @@
-﻿=== sina-weibo-wordpress-plugin-by-www.result-search.com ===
+=== sina-weibo-wordpress-plugin-by-www.result-search.com ===
 Contributors: Lyman Lai
 Author URI: http://www.yaha.me/go/?p=3
 Plugin URI: http://www.yaha.me/go/?p=3
 Tags: sina weibo,wp2sinaweibo,新浪微博,同步发布,sina,新浪
 Requires at least: 3.1
 Tested up to: 3.1
+Stable tag: 2.0.0
 
 This plugin makes it simple to update sina weibo message from wordpress.
 Also it have the feature to send update status while you post a new blog
 
 == Description ==
 
-Version 2.0.0 Feature
-1.send blog title and blog url to sina weibo while you update or post new blog
-2.could check a checkbox to prevent updating
-3.could simply send a message to sina weibo at wordpress 
-4.support multiple language,current have Chinese and English
-5.Do not need you to input your sina account and password.
-6.could customize the formate of the weibo message
-7.optimize the post new article or edit current article's 
-  "send or not" weibbo options, for default while post new article, 
-  it could be send to weibo, and while trying to edit an article, 
-  it would automacitly setting's not send weibo
+V3.0 新功能
 
-Version 2.0功能
-1.更新博客时，发送博客标题和博客文章地址到新浪微博
-2.可以勾选选项框选择当前更新不发送到新浪微博
-3.可以通过wordpress后台发送简单的信息到新浪微博
-4.支持多语言，当前有中文和英文
-5.不需要你输入帐号密码，保护你的sina帐号更安全
-6.可以定制每次自动发布微博时的格式
-7.优化了是否发表微博的设置，默认新建post会自动选择要发布微博，而编辑已有文章则默认是不发表微博的。
+重新优化了插件的代码
+评论时，如果是回复某条评论的，如果用户勾选同步到微博，则在微博系统上也做回复和转发
+我的微博好友功能:在后台通过小工具添加我的微博好友，在前端展示微博好友的最新微博信息
+非常灵活的消息格式定义，每篇文章还可以随时自定义当篇文章的格式。
 
 
-Version 1.0.0 Feature
-1.send blog title and blog url to sina weibo while you update or post new blog
-2.could check a checkbox to prevent updating
-3.could simply send a message to sina weibo at wordpress 
-4.support multiple language,current have Chinese and English
-5.Do not need you to input your sina account and password.
+功能特点
 
-Version 1.0.0 功能
-1.更新博客时，发送博客标题和博客文章地址到新浪微博
-2.可以勾选选项框选择当前更新不发送到新浪微博
-3.可以通过wordpress后台发送简单的信息到新浪微博
-4.支持多语言，当前有中文和英文
-5.不需要你输入帐号密码，保护你的sina帐号更安全
+更新博客时，发送博客标题和博客文章地址到新浪微博
+可以勾选选项框选择当前更新不发送到新浪微博
+可以通过wordpress后台发送简单的信息到新浪微博
+支持多语言，当前有中文和英文
+不需要你输入帐号密码，保护你的sina帐号更安全
+可以定制每次发布微博时的格式
+优化了是否发表微博的设置，默认新建post会自动选择要发布微博，而编辑已有文章则默认是不发表微博的。
+评论时，如果是回复某条评论的，如果用户勾选同步到微博，则在微博系统上也做回复和转发
 
 
+欢迎使用我们的无限升级版，有更好的功能提供
 
 == Installation ==
 
@@ -65,9 +50,6 @@ Version 1.0.0 功能
 
 
 == Changelog ==
-= 2.0 =
-可以定制每次自动发布微博时的格式
-优化了是否发表微博的设置，默认新建post会自动选择要发布微博，而编辑已有文章则默认是不发表微博的。
 
 
 == Upgrade Notice ==
