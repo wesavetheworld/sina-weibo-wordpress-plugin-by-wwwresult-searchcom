@@ -553,7 +553,10 @@ jQuery(function($){
 	
 	function include_oauth_api()
 	{
-		require_once $this->lib.'weibooauth.php';
+		if(!class_exists('OAuthException'))
+		{
+			require_once $this->lib.'weibooauth.php';
+		}
 	}
 	
 	function http_request_timeout($timeout)

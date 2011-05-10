@@ -5,12 +5,14 @@ Plugin URI: http://www.yaha.me/go/?p=3
 Tags: sina weibo,wp2sinaweibo,新浪微博,同步发布,sina,新浪
 Requires at least: 3.1
 Tested up to: 3.1
-Stable tag: 3.0.0
+Stable tag: 3.0.1
 
 This plugin makes it simple to update sina weibo message from wordpress.
 Also it have the feature to send update status while you post a new blog
 
 == Description ==
+V3.0.1
+解决了Fatal error: Cannot redeclare class OAuthException 的bug，建议用户删除其他同类的插件，因为他们也用了weibooauth类，但是有可能使用的版本不是最新的，有可能导致本插件不能正常使用
 
 V3.0 新功能
 
