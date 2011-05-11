@@ -4,7 +4,7 @@ Plugin Name: sina weibo wordpress plugin by http://www.yaha.me/002/
 Plugin URI: http://www.yaha.me/002/wordpress-sina-t-plugin
 Description: This plugin work for the Chinese hot twitter like website, t.sina.com.cn,if you interest in Chinese Marketing,you should use this plugin
 Author: Lyman Lai(at www.yaha.me)
-Version: 3.0.2
+Version: 3.0.3
 Author URI: http://www.yaha.me/about/lyman
 
 */
@@ -56,8 +56,17 @@ class www_yaha_me_weibo
 	// function personal_options_update($args=''){$this->include_func_file(__FUNCTION__,$args);}
 	// function edit_user_profile_update($args=''){$this->personal_options_update($args);}
 	
+	function all_admin_notices($args)
+	{
+		echo '('.__LINE__.')'.__FILE__."\n<br /><pre>"; var_dump($args);echo "</pre>";exit();
+	}
 	function __construct()
 	{
+		if(class_exists('OAuthException'))
+		{
+			add_action('all_admin_notices',array(&$this,'all_admin_notices'));
+			exit();
+		}
 		if (session_id() == "") 
 		{
 			session_start();
@@ -551,10 +560,7 @@ jQuery(function($){
 	
 	function include_oauth_api()
 	{
-		if(!class_exists('OAuthException'))
-		{
-			require_once $this->lib.'weibooauth.php';
-		}
+		require_once $this->lib.'weibooauth.php';
 	}
 	
 	function http_request_timeout($timeout)
