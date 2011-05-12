@@ -5,12 +5,15 @@ Plugin URI: http://www.yaha.me/go/?p=3
 Tags: sina weibo,wp2sinaweibo,新浪微博,同步发布,sina,新浪
 Requires at least: 3.1
 Tested up to: 3.1
-Stable tag: 3.0.3
+Stable tag: 3.0.4
 
 This plugin makes it simple to update sina weibo message from wordpress.
 Also it have the feature to send update status while you post a new blog
 
 == Description ==
+V3.0.4
+更新了meta box 没有显示的bug
+
 V3.0.3
 更新了一个oauth类bug，如果系统已经有其他同类插件使用了oauth,则插件会停止启用，防止造成麻烦
 
